@@ -1,0 +1,88 @@
+Using Phase I method to get a starting point: 
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+Objective Value: 0.0
+
+The value of the objective function of the starting solution is 33.384398589021295 
+
+The  Classical Frank-Wolfe Algorithm with Phase I is Starting:
+
+This is the iteration 1: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 6.018122428663429 in this iteration
+Step-size gained is 1.0
+
+In iteration 1, the objective function value of the solution gained is 28.84150737056784
+
+
+This is the iteration 2: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 0.15064364665635754 in this iteration
+Step-size gained is 0.11555377916061284
+
+In iteration 2, the objective function value of the solution gained is 28.832803649229007
+
+
+This is the iteration 3: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 0.04571549362420624 in this iteration
+Step-size gained is 0.33460476487768775
+
+In iteration 3, the objective function value of the solution gained is 28.825155338231305
+
+
+This is the iteration 4: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 0.025758319632928406 in this iteration
+Step-size gained is 0.5036986739934485
+
+In iteration 4, the objective function value of the solution gained is 28.818668122509607
+
+
+This is the iteration 5: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 0.022645161543757814 in this iteration
+Step-size gained is 0.1906868787156661
+
+In iteration 5, the objective function value of the solution gained is 28.81650905492321
+
+
+This is the iteration 6: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 0.0066924385255075075 in this iteration
+
+Termination condition with respect to epsilon is satisfied with iteration 6 and final value 28.81650905492321
+
+

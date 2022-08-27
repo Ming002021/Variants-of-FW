@@ -1,0 +1,126 @@
+Using KKT method to get a starting point: 
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+Objective Value of this KKT conditions model: 0.0
+The value of the objective function of the starting solution is 23.743808173176177 
+
+The  Classical Frank-Wolfe Algorithm with KKT is Starting:
+
+This is the iteration 1: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 465.05928271279305 in this iteration
+Step-size gained is 1.0
+
+In iteration 1, the objective function value of the solution gained is -1307.5
+
+
+This is the iteration 2: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 2836.0 in this iteration
+Step-size gained is 0.547807610585281
+
+In iteration 2, the objective function value of the solution gained is -2084.2911918099285
+
+
+This is the iteration 3: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 1292.8321421672783 in this iteration
+Step-size gained is 1.0
+
+In iteration 3, the objective function value of the solution gained is -3580.5
+
+
+This is the iteration 4: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 654.0 in this iteration
+Step-size gained is 0.7649122807017544
+
+In iteration 4, the objective function value of the solution gained is -3830.6263157894737
+
+
+This is the iteration 5: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 432.29473684210535 in this iteration
+Step-size gained is 1.0
+
+In iteration 5, the objective function value of the solution gained is -4270.0
+
+
+This is the iteration 6: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 166.0 in this iteration
+Step-size gained is 0.8736842105263158
+
+In iteration 6, the objective function value of the solution gained is -4342.515789473684
+
+
+This is the iteration 7: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 105.92631578947369 in this iteration
+Step-size gained is 1.0
+
+In iteration 7, the objective function value of the solution gained is -4418.0
+
+
+This is the iteration 8: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 14.0 in this iteration
+Step-size gained is 1.0
+
+In iteration 8, the objective function value of the solution gained is -4432.0
+
+
+This is the iteration 9: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+The gap is 0.0 in this iteration
+
+Termination condition with respect to epsilon is satisfied with iteration 9 and final value -4432.0
+
+

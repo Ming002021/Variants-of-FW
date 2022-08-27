@@ -1,0 +1,552 @@
+Using KKT method to get a starting point: 
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+Objective Value of this KKT conditions model: 0.0
+The value of the objective function of the starting solution is 9.889859175913758 
+
+The  Away-Steps Frank-Wolfe Algorithm in Atom Version with KKT is Starting:
+
+This is the iteration 1: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 3.1905226537940665 in this iteration
+Toward Step is selected 
+Step-size gained is 0.29059819080233534
+
+In iteration 1, the objective function value of the solution gained is 9.426279120460546
+
+
+This is the iteration 2: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.9016389646171592 in this iteration
+Toward Step is selected 
+Step-size gained is 0.3499315218851994
+
+In iteration 2, the objective function value of the solution gained is 9.268523172920808
+
+
+This is the iteration 3: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.3277996373977341 in this iteration
+Toward Step is selected 
+Step-size gained is 0.05045880558064426
+
+In iteration 3, the objective function value of the solution gained is 9.26025298383438
+
+
+This is the iteration 4: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.12700873778476626 in this iteration
+Toward Step is selected 
+Step-size gained is 0.07903420124512532
+
+In iteration 4, the objective function value of the solution gained is 9.255233966763395
+
+
+This is the iteration 5: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.17584468845326967 in this iteration
+Toward Step is selected 
+Step-size gained is 0.028275169956160442
+
+In iteration 5, the objective function value of the solution gained is 9.252747947537443
+
+
+This is the iteration 6: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.09296507335036082 in this iteration
+Toward Step is selected 
+Step-size gained is 0.07116507515679321
+
+In iteration 6, the objective function value of the solution gained is 9.249440014321475
+
+
+This is the iteration 7: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.14727070146533694 in this iteration
+Toward Step is selected 
+Step-size gained is 0.026601660267207748
+
+In iteration 7, the objective function value of the solution gained is 9.247481191737627
+
+
+This is the iteration 8: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.07030453517107098 in this iteration
+Toward Step is selected 
+Step-size gained is 0.04707593789063308
+
+In iteration 8, the objective function value of the solution gained is 9.245826365772055
+
+
+This is the iteration 9: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.09105234815072068 in this iteration
+Away Step is selected 
+Step-size gained is 0.10460938705668224
+
+In iteration 9, the objective function value of the solution gained is 9.239998031840758
+
+
+This is the iteration 10: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.10080672002279041 in this iteration
+Away Step is selected 
+Step-size gained is 0.01939083514474355
+
+In iteration 10, the objective function value of the solution gained is 9.238930622080186
+
+
+This is the iteration 11: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.055806306676897274 in this iteration
+Toward Step is selected 
+Step-size gained is 0.0370252568263869
+
+In iteration 11, the objective function value of the solution gained is 9.237897500661564
+
+
+This is the iteration 12: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.08343555031567647 in this iteration
+Toward Step is selected 
+Step-size gained is 0.01374804162813964
+
+In iteration 12, the objective function value of the solution gained is 9.237323962952061
+
+
+This is the iteration 13: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.030718379712799244 in this iteration
+Away Step is selected 
+Step-size gained is 0.04534643655658787
+
+In iteration 13, the objective function value of the solution gained is 9.23609372872189
+
+
+This is the iteration 14: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.07951888988029984 in this iteration
+Away Step is selected 
+Step-size gained is 0.015351354850331398
+
+In iteration 14, the objective function value of the solution gained is 9.235418583747602
+
+
+This is the iteration 15: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.04784757869621127 in this iteration
+Toward Step is selected 
+Step-size gained is 0.008917896447505118
+
+In iteration 15, the objective function value of the solution gained is 9.235205233871564
+
+
+This is the iteration 16: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.04815682817300531 in this iteration
+Toward Step is selected 
+Step-size gained is 0.03211736685707605
+
+In iteration 16, the objective function value of the solution gained is 9.23443189861301
+
+
+This is the iteration 17: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.03562860760866353 in this iteration
+Away Step is selected 
+Step-size gained is 0.052901266337457835
+
+In iteration 17, the objective function value of the solution gained is 9.232773155747909
+
+
+This is the iteration 18: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.05534238236246265 in this iteration
+Away Step is selected 
+Step-size gained is 0.011283839000384556
+
+In iteration 18, the objective function value of the solution gained is 9.232405071828435
+
+
+This is the iteration 19: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.0371251885916012 in this iteration
+Toward Step is selected 
+Step-size gained is 0.006939383764422713
+
+In iteration 19, the objective function value of the solution gained is 9.232276258862953
+
+
+This is the iteration 20: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.03266128192028236 in this iteration
+Toward Step is selected 
+Step-size gained is 0.022154231055145593
+
+In iteration 20, the objective function value of the solution gained is 9.231914466069844
+
+
+This is the iteration 21: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.021279998719173434 in this iteration
+Away Step is selected 
+Step-size gained is 0.03577825325572622
+
+In iteration 21, the objective function value of the solution gained is 9.231128484089389
+
+
+This is the iteration 22: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.038281093002031134 in this iteration
+Away Step is selected 
+Step-size gained is 0.008003909633343402
+
+In iteration 22, the objective function value of the solution gained is 9.230941986164915
+
+
+This is the iteration 23: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.027971422742327334 in this iteration
+Toward Step is selected 
+Step-size gained is 0.005243451018401749
+
+In iteration 23, the objective function value of the solution gained is 9.230868652772383
+
+
+This is the iteration 24: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.022469023336438444 in this iteration
+Toward Step is selected 
+Step-size gained is 0.015424615835614799
+
+In iteration 24, the objective function value of the solution gained is 9.2306953647458
+
+
+This is the iteration 25: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.013098269288849353 in this iteration
+Away Step is selected 
+Step-size gained is 0.0242616892406948
+
+In iteration 25, the objective function value of the solution gained is 9.230325317386562
+
+
+This is the iteration 26: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.026343925731849176 in this iteration
+Away Step is selected 
+Step-size gained is 0.00559610726358818
+
+In iteration 26, the objective function value of the solution gained is 9.23023369049425
+
+
+This is the iteration 27: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.020394389985419648 in this iteration
+Toward Step is selected 
+Step-size gained is 0.003832950513366621
+
+In iteration 27, the objective function value of the solution gained is 9.230194605150466
+
+
+This is the iteration 28: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.01543950104200028 in this iteration
+Away Step is selected 
+Step-size gained is 0.002762230090555588
+
+In iteration 28, the objective function value of the solution gained is 9.230172154399893
+
+
+This is the iteration 29: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.011613585400353538 in this iteration
+Away Step is selected 
+Step-size gained is 0.01105333003710051
+
+In iteration 29, the objective function value of the solution gained is 9.230093299624851
+
+
+This is the iteration 30: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.02140040442259219 in this iteration
+Toward Step is selected 
+Step-size gained is 0.014696944126165361
+
+In iteration 30, the objective function value of the solution gained is 9.229936039350815
+
+
+This is the iteration 31: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.014374823457825939 in this iteration
+Away Step is selected 
+Step-size gained is 0.013012474361861679
+
+In iteration 31, the objective function value of the solution gained is 9.22982713249818
+
+
+This is the iteration 32: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.014328146523596222 in this iteration
+Toward Step is selected 
+Step-size gained is 0.009932854843157432
+
+In iteration 32, the objective function value of the solution gained is 9.229755972798387
+
+
+This is the iteration 33: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.01387696020724652 in this iteration
+Toward Step is selected 
+Step-size gained is 0.002613989880980286
+
+In iteration 33, the objective function value of the solution gained is 9.229737835681604
+
+
+This is the iteration 34: 
+I am solving an LP problem over feasible region to get the Toward direction now:
+Describing a summary of the model: 
+Termination Status: OPTIMAL 
+Primal Status: FEASIBLE_POINT 
+Message from the solver: Solution is optimal
+
+I am solving an LP problem over D to get the Away direction now:
+
+The gap is 0.0016369498211043915 in this iteration
+
+Termination condition with respect to epsilon is satisfied with iteration 34 and final value 9.229737835681604
+
+
