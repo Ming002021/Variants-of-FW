@@ -29,7 +29,7 @@ module MyFW
     export Classical_FW_QP
     export AwayStep_FW_QP
     export Pairwise_FW_QP
-    export FullCorrection_FW_QP
+    #export FullCorrection_FW_QP
     export Pairwise_FW_QP_Debug
 
     export AwayStep_Atoms_FW_QP
@@ -265,7 +265,7 @@ module MyFW
                     Index_zk_D=findall(x-> x==z_k,D)     #If z_k already in D, find its position in D
 
                     Non_Index_zk_D=findall(x-> x !=z_k,D)  
-                    Weight_D[Index_zk_D] .= (1-gamma_k) * Weight_D[Index_zk_D] .+gamma_k   #Update weights of z_k in D 
+                    Weight_D[Index_zk_D] .= (1-gamma_k) * Weight_D[Index_zk_D] .+gamma_k   #Update weight of z_k in D 
                     if isempty(Non_Index_zk_D) ==false
 
                         Weight_D[Non_Index_zk_D] .= (1-gamma_k) * Weight_D[Non_Index_zk_D]  #Update weights of all atoms in D 

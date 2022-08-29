@@ -1,0 +1,1 @@
+This folder contains Julia scripts to get the running time of the algorithm implemented on a instance.

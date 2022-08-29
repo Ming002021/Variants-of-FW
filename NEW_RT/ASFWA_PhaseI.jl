@@ -1,7 +1,8 @@
-#########################################################################
-#Use BenchmarkTools to get the running time of Away-steps FW            #
-#Starting point obtained by KKT conditions                              #
-#########################################################################
+####################################################################################
+#Use BenchmarkTools to get the running time of Away-steps FW in atomic version     #
+#Starting point obtained by Phase I                                                #
+####################################################################################
+
 
 include("./Utility_Fun.jl")
 using .Myutility_read
@@ -48,55 +49,29 @@ for j in 1:1#epsil_length
         beq = Instance["beq"]
         T   = Instance["T"]  
         n   =length(LB)                     #The size of x, i.e, the number of variabels
-        
-        Aieq= vcat(A, Matrix{Float64}(I, n, n), Matrix{Float64}(-I, n, n))        #Combine all inequality constraints together
-        bieq=vcat(b, UB, -1*LB )
 
-        ninif_bieq_index=findall(x-> x >-Inf &&  x < Inf,bieq)                    #Find indices of all elements in bieq which are not infinity
 
-        ninif_Aieq=Aieq[ninif_bieq_index,:]                                       #So, now all inequality constraints are combined.       
-        ninif_bieq=bieq[ninif_bieq_index,:]                                       #new inequality constraints  Aieq*x <=bieq
-    
-    
-    
-        #output2_path="/Users/Mindy/Desktop/NEW/Text/CFW_Phase I/"                                
-        #cd(output2_path)
-
-        model = Model(GLPK.Optimizer)                                         #Using GLPK Slover to slove LP
-
-        @variables(model, begin
-        x_free[i=1:n]                   #variabe x_1,...,x_n
-        v_free[i=1:size(Aeq,1)]         #Lagrangian multiplier v for constraint Aeq*x =beq
-        w[i=1:size(Aieq,1)] >=0         #Lagrangian multiplier u for constraint Aieq*x <=bieq
-                                        # w >=0, for Dual feasibility in KKT conditions
-        end
-        )
-    
-        @constraints(model, begin
-
-        Q*x_free+c+Aieq'*w-Aeq'*v_free .==0      #Stationarity Conditions in KKT conditions
-        Aeq * x_free .== beq                     #Primal feasibility in KKT conditions
-        ninif_Aieq *x_free .<=ninif_bieq         #Primal feasibility in KKT conditions
-   
-        end
-        )
+        model = Model(GLPK.Optimizer)                  #Using GLPK Slover to slove LP
+        @variable(model, LB[i] <= x[i=1:n] <= UB[i])
+        @constraint(model, A * x .<= b)
+        @constraint(model, Aeq * x .== beq)   
         @objective(model, Min, 0)
         optimize!(model)
 
-        x_1= value.(x_free)
 
-        b = @benchmark MyFW.ASFW($x_1,$K,$epsil,$A,$Aeq,$b,$beq,$LB,$UB,$Q,$c,$T,$n) evals=10 samples=100 seconds = 10000;
+        x_1= value.(x)                   #Get the starting point
+
+        b = @benchmark MyFW.ASFWA($x_1,$K,$epsil,$A,$Aeq,$b,$beq,$LB,$UB,$Q,$c,$T,$n) evals=10 samples=100 seconds = 10000;
         min = minimum(b)
         runtimes=min.time/1e9
         
-        output2_path="/Users/Mindy/Desktop/NEW_RT/Text/ASFW_KKT/$(instance_Type)"                                
+        output2_path="/Users/Mindy/Desktop/NEW_RT/Text/ASFWA_Phase I/$(instance_Type)"                                
         cd(output2_path)
 
         open("$(mat_file)_$(epsilName).txt", "w") do file  
             write(file, "The running time is $(runtimes)")
         end
               
-    
     end
-    
+
 end

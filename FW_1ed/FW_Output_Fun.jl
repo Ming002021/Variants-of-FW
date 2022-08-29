@@ -204,7 +204,10 @@ module MyAnother_Final_FW_Output
     
         open("$(folder)_$(Name_FW)_$(epsilName).txt", "a+") do file                                     #After giving the values of epsil and K, and mat file and algorithm used for implemention, write the output to a text file
             (TerminatStaus,iterNum,final_val)=FW_Fun(epsil,K, Instance)
-            timeRun=@elapsed FW_Fun(epsil,K, Instance)       #Get the total solution time
+            timeRun=@elapsed FW_Fun(epsil,K, Instance)      #Get the total solution time for execute one time algorithm
+                                                            #This running time contains the time for solving the starting point
+                                                            #Will not use this running time because it is not accurate
+                                                            #Use benchmarktools to get more accurate result
             write(file, "$(mat_file), $(TerminatStaus), $(iterNum), $(final_val), $(timeRun)", "\n")
         end
     

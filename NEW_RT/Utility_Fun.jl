@@ -1,4 +1,3 @@
-__precompile__()
 
 ###########################################
 #This script gives the following:         #
@@ -8,7 +7,8 @@ __precompile__()
 # 	function AwayStep_GammaMax            #   
 # Myutility_LineSearch                    #
 # 	function linesearchQP                 #
-#                                         #
+# MyLP_module                             #
+#   function solveLP_Away_Atoms           #
 ###########################################  
 
 
