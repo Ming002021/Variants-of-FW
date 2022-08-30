@@ -5,6 +5,7 @@
 -NEW contains Julia scripts that allow us to see the results of each iteration as we implement the algorithm on the instance.
 
 -NEW_RT  contains Julia scripts to get the running time of the algorithm implemented on a instance.
+
 -mat contains all benchmark instances we used
 
 -Results contains all output results.
