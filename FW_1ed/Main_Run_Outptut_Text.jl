@@ -15,10 +15,10 @@ class_path_vec=["/boxqp", "/randqp", "/globallib", "/cuter"]
 #FW_Name_path_vec=["/CFW", "/ASFW", "/PFW", "/FCFW" ]
 #Name_FW_vec=["CFW", "ASFW", "PFW", "FCFW" ]
 #FW_Fun_vec=[Classical_FW_QP, AwayStep_FW_QP, Pairwise_FW_QP, FullCorrection_FW_QP]
-FW_Name_path_vec=["/ASFW", "/PFW" ]
-Name_FW_vec=["ASFW", "PFW"]
-FW_Fun_vec=[AwayStep_Atoms_FW_QP, Pairwise_Atoms_FW_QP] 
-Start_Index=[2,2,2,1]                 #Since ther is a hidden .DS_Store file in boxqp and randqp, the starting index should be 2
+FW_Name_path_vec=["/CFW", "/ASFW", "/PFW","/ASFWA", "/PFWA" ]
+Name_FW_vec=["CFW", "ASFW", "PFW","ASFWA", "PFWA"]
+FW_Fun_vec=[Classical_FW_QP,AwayStep_FW_QP, AwayStep_Atoms_FW_QP, Pairwise_FW_QP, Pairwise_Atoms_FW_QP] 
+Start_Index=[2,2,2,2]                 #Since ther is a hidden .DS_Store file in boxqp and randqp, the starting index should be 2
 End_Index=[91, 65, 84, 6]             #This is the index pointing to the final MAT file
 
 epsil=[1e-2,1e-3,1e-4]
@@ -27,13 +27,13 @@ K=250
 
 #Implement
 
-for h in 1:4
+for h in 1:1
 
     class_path=class_path_vec[h]       #Which type of problems I want to implement, boxqp, randqp, globallib or cuter
     SI=Start_Index[h]
     EI=End_Index[h]
 
-    for i in 1:2
+    for i in 1:1
     
         FW_Name_path=FW_Name_path_vec[i]
         Name_FW=Name_FW_vec[i]

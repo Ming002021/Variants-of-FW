@@ -27,8 +27,8 @@ epsilName_vec=["e2","e3","e4"]
 epsil_length=3
 instance_Type_vec=["BoxQP","CUTEr","Globallib","RandQP"]   #Name of our four sets of instances
 instance_Type_length_vec=[90,6,83,64]                      #Number of instances in each set
-instance_Type=instance_Type_vec[1]                         #Choose one set
-instance_Type_length=instance_Type_length_vec[1]
+instance_Type=instance_Type_vec[3]                         #Choose one set
+instance_Type_length=instance_Type_length_vec[3]
 
 for j in 1:epsil_length
 

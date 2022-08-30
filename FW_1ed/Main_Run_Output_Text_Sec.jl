@@ -44,16 +44,16 @@ l=length(vec_file)
 # write the output result of all mat file in this folder to a single text file           # 
 ##########################################################################################
 
-for k in 1:5
+for k in 1:1
     Name_FW=Name_FW_vec[k]
     FW_Fun= FW_Fun_vec[k] 
 
-    for j in 1:3
+    for j in 1:1
 
         epsilName=epsilName_vec[j]
         epsil=epsil_vec[j]
 
-        for i in 1:l
+        for i in 1:1
 
             mat_file=vec_file[i]
             Final_FW_Output_Text_Sec(FW_Fun,Name_FW,mat_file,folder,epsil,epsilName,K)

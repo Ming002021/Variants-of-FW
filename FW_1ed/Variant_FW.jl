@@ -41,7 +41,7 @@ module MyFW
 
         ######################################################################################################
         # Function on the Classical Frank Wolfe algorithm with exactly line search step size.                #
-        # x_1 is the starting point                                                                          #
+        # Instance is the QP problem                                                                         #
         # epsil is the approximation error                                                                   #
         # K is a reasonable iteration limit                                                                  #                                                                   #
         ######################################################################################################
@@ -88,8 +88,8 @@ module MyFW
     function AwayStep_FW_QP(epsil::Float64,K::Int64,Instance)
 
         ######################################################################################################
-        # Function on the Away Steps Frank Wolfe algorithm with exactly line search step size               #
-        # x_1 is the starting point                                                                          #
+        # Function on the Away Steps Frank Wolfe algorithm with exactly line search step size                #
+         # Instance is the QP problem                                                                        #
         # epsil is the approximation error                                                                   #
         # K is a reasonable iteration limit                                                                  #                                                                   #
         ######################################################################################################
@@ -152,7 +152,7 @@ module MyFW
 
         ######################################################################################################
         # Function on the Pairwise Frank Wolfe algorithm with exactly line search step size                  #
-        # x_1 is the starting point                                                                          #
+        # Instance is the QP problem                                                                         #
         # epsil is the approximation error                                                                   #
         # K is a reasonable iteration limit                                                                  #                                                                   #
         ######################################################################################################
@@ -211,7 +211,7 @@ module MyFW
 
         ######################################################################################################
         # Function on the Away Steps Frank Wolfe algorithm with exactly line search step size                #
-        # x_1 is the starting point                                                                          #
+        # Instance is the QP problem                                                                         #
         # epsil is the approximation error                                                                   #
         # K is a reasonable iteration limit                                                                  # 
         # Get the away direction by minimizing the -gradient*x_k over the active set D  containing the       #
@@ -330,7 +330,7 @@ module MyFW
 
         ######################################################################################################
         # Function on the Pairwise Frank Wolfe algorithm with exactly line search step size                  #
-        # x_1 is the starting point                                                                          #
+        # Instance is the QP problem                                                                         #
         # epsil is the approximation error                                                                   #
         # K is a reasonable iteration limit                                                                  # 
         # Get the away direction by minimizing the -gradient*x_k over the active set D  containing the       #
@@ -427,7 +427,7 @@ module MyFW
 
         ######################################################################################################
         # Function on the Fully-Corrective Frank Wolfe algorithm with exactly line search step size          #
-        # x_1 is the starting point                                                                          #
+        # Instance is the QP problem                                                                         #
         # epsil is the approximation error                                                                   #
         # K is a reasonable iteration limit                                                                  # 
         # The Fully-Corrective Frank-Wolfe algorithm computes the new iterate x_k+1                          #
@@ -481,7 +481,7 @@ module MyFW
 
         ######################################################################################################
         # Function on the Pairwise Frank Wolfe algorithm with exactly line search step size                  #
-        # x_1 is the starting point                                                                          #
+        # Instance is the QP problem                                                                         #
         # epsil is the approximation error                                                                   #
         # K is a reasonable iteration limit                                                                  #                                                                   #
         ######################################################################################################

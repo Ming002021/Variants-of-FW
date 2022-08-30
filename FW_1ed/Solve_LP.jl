@@ -23,7 +23,7 @@ module MyLP_module
 
     export solveLP_StartPoint                      #Used in Classical_FW_QP, AwayStep_FW_QP, Pairwise_FW_QP, FullCorrection_FW_QP
     export KKT_StartPoint                          #Used in Classical_FW_QP, AwayStep_FW_QP, Pairwise_FW_QP, FullCorrection_FW_QP
-    export StartPoint_Two_PhaseSimplex             #Another wat to get a start point
+    #export StartPoint_Two_PhaseSimplex             #Another wat to get a start point
     export solveLP_Toward                          #Used in Classical_FW_QP, AwayStep_FW_QP, Pairwise_FW_QP, FullCorrection_FW_QP
     export solveLP_Away                            #Used in AwayStep_FW_QP, Pairwise_FW_QP
     export solveLP_Away_Atoms                      #Used in AwayStep_Atoms_FW_QP, Pairwise_Atoms_FW_QP

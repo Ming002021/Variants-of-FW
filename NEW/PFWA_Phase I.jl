@@ -1,6 +1,6 @@
 ###############################################################################
 # Pairwise Frank-Wolfe Algorithm with active atoms                              # 
-# Starting point is obtained by  Phase I                                        #
+# Starting point is obtained by  Phase I                                           #
 # The results are output to text files,                                         #
 # including the final results and everything during this iterative procedyre    #
 # The results of each iteration is output to a text file                        #

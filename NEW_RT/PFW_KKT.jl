@@ -88,6 +88,7 @@ for j in 1:epsil_length
         b = @benchmark MyFW.PFW($x_1,$K,$epsil,$A,$Aeq,$b,$beq,$LB,$UB,$Q,$c,$T,$n) evals=10 samples=100 seconds = 10000;
         min = minimum(b)
         runtimes=min.time/1e9
+        println("Running Time is $(runtimes)")
         
         output2_path="/Users/Mindy/Desktop/NEW_RT/Text/PFW_KKT/$(instance_Type)"                                
         cd(output2_path)

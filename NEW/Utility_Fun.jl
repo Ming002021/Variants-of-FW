@@ -8,6 +8,8 @@ __precompile__()
 # 	function AwayStep_GammaMax            #   
 # Myutility_LineSearch                    #
 # 	function linesearchQP                 #
+# MyLP_module                             #
+#  function solveLP_Away_Atoms            # 
 #                                         #
 ###########################################  
 
@@ -368,8 +370,7 @@ module MyLP_module
 
     include("./Basic_Functions.jl")
     using .MyBasic
-    using JuMP
-    using GLPK  
+    
     using LinearAlgebra
 
     export solveLP_Away_Atoms      

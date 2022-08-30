@@ -26,12 +26,12 @@ instance_Type_length_vec=[90,6,83,64]                      #Number of instances 
 instance_Type=instance_Type_vec[1]                         #Choose one set
 instance_Type_length=instance_Type_length_vec[1]
 
-for j in 1:1#epsil_length
+for j in 1:epsil_length
 
     epsil=epsil_vec[j]                                     #Choose epsilon value 
     epsilName=epsilName_vec[j]
 
-    for i in 1:1#instance_Type_length     
+    for i in 1:instance_Type_length     
 
         output1_path="/Users/Mindy/Desktop/NEW/mat/$(instance_Type)"     #The directory of storing all problems, i.e. storing "boxqp", "randqp", "globallib" and "cuter" folders                             
         cd(output1_path) 
@@ -59,11 +59,12 @@ for j in 1:1#epsil_length
         optimize!(model)
 
 
-        x_1= value.(x)                               #Get the starting point
+        x_1= value.(x)                   #Get the starting point      
 
         b = @benchmark MyFW.CFW($x_1,$K,$epsil,$A,$Aeq,$b,$beq,$LB,$UB,$Q,$c,$T,$n) evals=10 samples=100 seconds = 10000;
         min = minimum(b)
         runtimes=min.time/1e9
+        println("Running Time is $(runtimes)")
         
         output2_path="/Users/Mindy/Desktop/NEW_RT/Text/CFW_Phase I/$(instance_Type)"                                
         cd(output2_path)

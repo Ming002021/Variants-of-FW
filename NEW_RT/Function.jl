@@ -1,9 +1,21 @@
 
+##############################################
+#This script gives the following:            #
+# module MyFW                                #
+# 	function CFW                             #
+# 	function ASFW                            #   
+# 	function ASFWA                           #
+#   function PFW                             #
+#   function PFWA                            #
+##############################################
+
+
+
+
+
 module MyFW
 
 
-include("./Basic_Functions.jl")
-using .MyBasic
 include("./Utility_Fun.jl")
 using .MyLP_module
 using .Myutility_AwayStep_Max   
@@ -25,7 +37,14 @@ export PFWA           #Pairwise FW in atomic version
 
 function CFW(x_1,K,epsil,A,Aeq,b,beq,LB,UB,Q,c,T,n)
 
- 
+        ######################################################################################################
+        # Function of the Classical Frank-Wolfe algorithm with exactly line search step size.                #
+        # x_1 is the starting point                                                                          #
+        # epsil is the approximation error                                                                   #
+        # K is a reasonable iteration limit                                                                  #
+        # A, Aeq,b,beq,LB, UB,Q,c, T and n are parameters of QP problem                                      #                                                                   #
+        ######################################################################################################
+
     global x_k=x_1                                         #Plug the initial point
     global iter=0                                          #Initialize the iteration number to be 0
     global rep=1                                           #Binary variabe to control if the while loop should be discountinued
@@ -87,6 +106,13 @@ end
 
 function ASFW(x_1,K,epsil,A,Aeq,b,beq,LB,UB,Q,c,T,n)
 
+        ######################################################################################################
+        # Function of the Away-steps Frank-Wolfe algorithm with exactly line search step size.               #
+        # x_1 is the starting point                                                                          #
+        # epsil is the approximation error                                                                   #
+        # K is a reasonable iteration limit                                                                  #
+        # A, Aeq,b,beq,LB, UB,Q,c, T and n are parameters of QP problem                                      #                                                                   #
+        ###################################################################################################### 
     global x_k=x_1                                         #Plug the initial point
     global iter=0                                          #Initialize the iteration number to be 0
     global rep=1                                           #Binary variabe to control if the while loop should be discountinued
@@ -170,7 +196,7 @@ function ASFW(x_1,K,epsil,A,Aeq,b,beq,LB,UB,Q,c,T,n)
         gamma_k=linesearchQP(x_k, Q,c, T, d_k, gamma_max)                #Find the step-size by exact line search
 
         x_k=x_k+gamma_k*d_k                                              #Get the new iterative point
-        value_now=c' * x_k +0.5*(x_k'*Q *x_k)+T[1,1]                                  #Compute the value of objective function at this new iterative point
+        value_now=c' * x_k +0.5*(x_k'*Q *x_k)+T[1,1]                     #Compute the value of objective function at this new iterative point
 
 
         if iter==K                                                                   #Check if the maximum number of iteration is satisfied
@@ -189,6 +215,14 @@ end
 
 
 function PFW(x_1,K,epsil,A,Aeq,b,beq,LB,UB,Q,c,T,n)
+
+        ######################################################################################################
+        # Function of the Pairwise Frank-Wolfe algorithm with exactly line search step size.                #
+        # x_1 is the starting point                                                                          #
+        # epsil is the approximation error                                                                   #
+        # K is a reasonable iteration limit                                                                  #
+        # A, Aeq,b,beq,LB, UB,Q,c, T and n are parameters of QP problem                                      #                                                                   #
+        ######################################################################################################
     global x_k=x_1                                         #Plug the initial point
     global iter=0                                          #Initialize the iteration number to be 0
     global rep=1                                           #Binary variabe to control if the while loop should be discountinued
@@ -281,6 +315,14 @@ function PFW(x_1,K,epsil,A,Aeq,b,beq,LB,UB,Q,c,T,n)
 end
 
     function ASFWA(x_1,K,epsil,A,Aeq,b,beq,LB,UB,Q,c,T,n)
+
+        #########################################################################################################
+        # Function of the Away-steps Frank-Wolfe algorithm in atomic version with exactly line search step size.#
+        # x_1 is the starting point                                                                             #
+        # epsil is the approximation error                                                                      #
+        # K is a reasonable iteration limit                                                                     #
+        # A, Aeq,b,beq,LB, UB,Q,c, T and n are parameters of QP problem                                         #                                                                   #
+        #########################################################################################################
 
         global x_k=x_1                                         #Plug the initial point
         global iter=0                                          #Initialize the iteration number to be 0
@@ -409,6 +451,15 @@ end
 
         function PFWA(x_1,K,epsil,A,Aeq,b,beq,LB,UB,Q,c,T,n)
 
+
+        #########################################################################################################
+        # Function of the Pairwise Frank-Wolfe algorithm in atomic version with exactly line search step size.  #
+        # x_1 is the starting point                                                                             #
+        # epsil is the approximation error                                                                      #
+        # K is a reasonable iteration limit                                                                     #
+        # A, Aeq,b,beq,LB, UB,Q,c, T and n are parameters of QP problem                                         #                                                                   #
+        #########################################################################################################
+
             global x_k=x_1                                         #Plug the initial point
             global iter=0                                          #Initialize the iteration number to be 0
             global rep=1                                           #Binary variabe to control if the while loop should be discountinued
@@ -439,7 +490,7 @@ end
                 #println("D is ",D,"\n")
                 #println("D_Weight is ",D_Weight,"\n")
 
-                w_k=solveLP_Away_Atoms(x_k, D, Q,c)                      #Get the away atom              
+                w_k=solveLP_Away_Atoms(x_k, D, Q,c)                       #Get the away atom              
                 #println("w_k is ", w_k, "\n")
                 #println("w_k is in D_Weight $(haskey(D_Weight, w_k)) \n ")
                 #the weight of w_k in D

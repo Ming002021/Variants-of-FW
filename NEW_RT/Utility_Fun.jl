@@ -276,11 +276,10 @@ end
 
 module   Myutility_LineSearch
 
-	include("./Basic_Functions.jl")
-	using .MyBasic
+	 
 	using LinearAlgebra
 
-    export linesearchQP                                      #Used in Classical_FW_QP, AwayStep_FW_QP, Pairwise_FW_QP
+    export linesearchQP                                       
 
 
 
@@ -288,7 +287,7 @@ module   Myutility_LineSearch
 
 		#################################################################################################################
 		#After finding a descent direction d along which the objective function is reduced,                             #
-		#we determine the a step size that x should move along this direction by using exactly line search strategy.    #
+		#we determine the step-size that x should move along this direction by using exact line search strategy.        #
         #gamma_max is the maximum step size that x can move along this direction in the feasible region                 #
 		#################################################################################################################
 		
@@ -356,10 +355,8 @@ end
 
 module MyLP_module
 
-    include("./Basic_Functions.jl")
-    using .MyBasic
-    using JuMP
-    using GLPK  
+     
+     
     using LinearAlgebra
 
     export solveLP_Away_Atoms      
