@@ -13,3 +13,5 @@
 -Results contains all output results.
 
 -See ReadMe.txt in each folder please.
+
+ALL CODE IS WRITTEN BY MINDY.
