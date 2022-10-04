@@ -14,4 +14,4 @@
 
 -See ReadMe.txt in each folder please.
 
-ALL CODE IS WRITTEN BY MINDY.
+ALL CODE IS WRITTEN BY MINDY XU.
