@@ -12,7 +12,6 @@ using .MyFW
 file_now="/Users/Mindy/Desktop/Julia/FW_Algorithm_New/"
 cd(file_now)
 
-
 #Prepare
 
 folder_vec=["boxqp", "randqp", "globallib", "cuter"]
