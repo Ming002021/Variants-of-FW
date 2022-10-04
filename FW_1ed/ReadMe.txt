@@ -1,1 +1,1 @@
-This folder contains Julia scripts that allow us to see the final results when  implementing the algorithm on the instance, including the final solution,  the number of iteration and the value of objective function at the final solution.
+This folder contains Julia scripts that only allow us to see the final results when implementing algorithms on the instance, including the final solution,  the number of iteration and the value of objective function at the final solution.
