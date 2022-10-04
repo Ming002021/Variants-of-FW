@@ -8,7 +8,6 @@ include("./FW_Output_Fun.jl")
 using .MyFinal_FW_Output
 include("./Variant_FW.jl")
 using .MyFW
- 
 #Prepare
 
 class_path_vec=["/boxqp", "/randqp", "/globallib", "/cuter"]
