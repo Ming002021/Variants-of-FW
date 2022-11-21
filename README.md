@@ -1,4 +1,4 @@
-# Variants-of-FW
+# Implementation of Variants of Frank-Wolfe algorithms
 
 
 -NEW contains Julia scripts that allow us to see the results of each iteration as we implement the algorithm on the instance.
@@ -15,3 +15,7 @@
 -See ReadMe.txt in each folder please.
 
 ALL CODE IS WRITTEN BY MINDY XU.
+
+
+
+
